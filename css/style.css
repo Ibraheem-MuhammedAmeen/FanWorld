@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.bg-img2{
+    background-image: url(../Images/CeilingFans/pic4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-img3{
+    background-image: url(../Images/PedestalFans/istockphoto-1328642656-612x612\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-img4{
+    background-image: url(../Images/TableFans/istockphoto-1390275521-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-img5{
+    background-image: url(../Images/WallFans/w-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.bigimage{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    background-image: url(../Images/CeilingFans/fan-5789660_1280\ -\ Copy.jpg); 
+    background-size: cover;
+}
+.big-image{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    background-image: url('../Images/WallFans/w-2.jpg'); 
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* background-image: url("../Images/CeilingFans/fan-5789660_1280\ -\ Copy.jpg"); */
+    
+}
+.overs{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-image: url("../Images/CeilingFans/pic2.jpg");
+    
+}
+.big{
+    height: 14%;
+    position: relative;
+    background-image: url('../Images/promo_bg.png'); 
+    background-size: cover;
+}
+.ml{
+    margin-left: 30px;
+}
+.img1{
+    height: 70px;
+    width: 70px;
+}
+.sec-1{
+    margin-top: 10px;
+}
+.img-2{
+    height: 90%;
+}
+.text-left{
+    margin-left: 100px;
+}
+.img-1{
+    position: relative;
+    transition: 8s ease-out;
+    animation: fan  10s ease-in-out;
+    z-index: -1;
+    background-image: url('../Images/3653349.png')
+}
+@keyframes fan {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 400px;
+    }
+    50%{
+        top: 0;
+        left: 500px;
+    }
+    100%{
+        top: 0;
+        left:0;
+    }
+}
+.size-1{
+    font-size:medium;
+}
+.md{
+    margin-top: 100px;
+}

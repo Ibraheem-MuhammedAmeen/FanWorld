@@ -1,0 +1,63 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.bg-black{
+    background-color: #000000;
+}
+.bg-pale{
+    background-color: #f5f5f7;
+}
+.bg-pale2{
+    background-color: #fbfbfd;
+}
+.fs-7 {
+    font-size: 0.8rem !important;
+  }
+.mb-65{
+    margin-bottom: 0px;
+}
+.mt-65{
+    margin-top: -2px;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.bg-img {
+    background-image: url(../Images/CeilingFans/pic7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-img2 {
+    background-image: url(../Images/CeilingFans/pic8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-indigo {
+    background-color: #364fc7;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.text-justify {
+    text-align: justify;
+}

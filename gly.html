@@ -1,0 +1,538 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <script>
+        function changeHeader(e){
+            var replaceMent = document.getElementById(e).innerHTML
+            document.getElementById('headie').innerHTML = replaceMent
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white navbar-white p-3 fixed-top ">
+        <div class="container">
+            <div class="">
+                <a href="#" class="navbar-brand display-1 img1"> <span class="d-flex sec-1">
+                        <h1 class="py-1">Fanimation</h1><img class="img-fluid img-1 img1  d-none d-md-block"
+                            src="images/3653349.png" alt="">
+                    </span></a>
+            </div> <!-- logo -->
+            <button class="navbar-toggler" data-bs-target="#nav" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button><!-- toggle button visible only on moblile -->
+
+            
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto ">
+
+                    <div>
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a href="index.html" class="nav-link mx-3 ">Home</a></li>
+                            <li class="nav-item"><a href="gly.html" class="nav-link mx-3">Gallery</a></li>
+                            <div class="dropdown">
+                                <button type="button" class="btn btn-outline-primary dropdown-toggle"
+                                    data-bs-toggle="dropdown">About us</button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                                    <li><a class="dropdown-item" href="about.html">About us</a></li>
+                                    <li><a class="dropdown-item" href="contact.html">Contact us</a></li>
+
+                                </ul>
+
+                            </div>
+                    </div>
+
+                    <div class="px-3"></div>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                            Categories
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="assece.html">Accessories</a></li>
+                            <li><a class="dropdown-item" href="pedestal.html">Pedestal Fans</a></li>
+                            <li><a class="dropdown-item" href="table.html">Table Fan</a></li>
+                            <li><a class="dropdown-item" href="wall.html">Wall Mount Fans</a></li>
+                            <li><a class="dropdown-item" href="ceiling.html">Ceiling Fans</a></li>
+
+                        </ul>
+                    </div>
+
+                </ul>
+            </div>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    
+    <section>
+        <div class="container" style="margin-top: 200px;">
+            <div class="row mt-n">
+                <div class="col-md-12 d-flex flex-dr justify-content-evenly text-center">
+                    <div class="col-md-2 text-center shadow-lg" style="border-radius: 50px;">
+                        <p><a href="ceiling.html" id="linkName1"
+                                class="link link-primary">Ceiling Fans</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-2 text-center shadow-lg" style="border-radius: 50px;">
+                        <p><a href="pedestal.html" id="linkName2"
+                                class="link link-primary ">Pedestal Fans</a></p>
+                    </div>
+
+                    <div class="col-md-2 text-center shadow-lg" style="border-radius: 50px;">
+                        <p><a href="wall.html" id="linkName3" 
+                                class="link link-primary ">Wall Fans</a></p>
+                    </div>
+
+                    <div class="col-md-2 text-center shadow-lg" style="border-radius: 50px;">
+                        <p><a href="table.html" id="linkName4"
+                                class="link link-primary ">Table Fans</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5" id="featured">
+        <div class="container">
+            <h1 class="fw-bold">Popular <span id="headie">Fans</span></h1>
+            <div class="row">
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/pexels-photo-7543679.jpeg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Vision Fans
+                                </figcaption>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/CeilingFans/pic1.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Wavier Fans
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/CeilingFans/pic2.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Thermocool Fan
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/CeilingFans/pic3.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Hisence Fan
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/CeilingFans/pic4.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Vision Fans
+                                </figcaption>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/CeilingFans/pic5.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Wavier Fans
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/CeilingFans/pic6.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Thermocool Fan
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/CeilingFans/pic7.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Hisence Fan
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/CeilingFans/pic8.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Vision Fans
+                                </figcaption>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/PedestalFans/ped-1.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Wavier Fans
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/PedestalFans/ped-2.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Thermocool Fan
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/PedestalFans/ped-3.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Hisence Fan
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div><div class="row">
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/PedestalFans/ped-4.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Vision Fans
+                                </figcaption>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/PedestalFans/ped-5.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Wavier Fans
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/PedestalFans/ped-6.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Thermocool Fan
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/PedestalFans/ped-7.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Hisence Fan
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/PedestalFans/ped-8.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Vision Fans
+                                </figcaption>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/TableFans/tab-1.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Wavier Fans
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/TableFans/tab-2.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Thermocool Fan
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/TableFans/tab-3.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Hisence Fan
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/TableFans/tab-4.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Vision Fans
+                                </figcaption>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/TableFans/tab-5.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Wavier Fans
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/TableFans/tab-6.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Thermocool Fan
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/TableFans/tab-7.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Hisence Fan
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/TableFans/tab-8.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Vision Fans
+                                </figcaption>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/TableFans/tab-9.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Wavier Fans
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/WallFans/w-1.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Thermocool Fan
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-lg-3 mt-3">
+                    <div class="card border-0 shadow rounded-0">
+                        <div class="card-body">
+                            <figure>
+                                <img src="Images/WallFans/w-2.jpg" width="500px" height="200px" alt="" class="card-img-top">
+                            </figure>
+                            <div>
+                                <figcaption class="fw-bold m-0 align-self-center h-4 text-dark">Hisence Fan
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+    </section>
+
+        
+</body>
+</html>

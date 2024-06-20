@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sign.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row vh-100">
+            <div class="col-md-5 bg-img text-white p-5  h-100 ">
+                
+                <div class="row align-items-center justify-content-center vh-100">
+                    <div class="col-md-8 text-center ">
+                        <h1>Sign in</h1>
+                        <p>Kindly fill in your credentials</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 bg-success">
+                
+                <div class="row justify-content-center align-items-center  vh-100  bg-indigo h-100">
+                    <div class="col-md-6 text-white ">
+                        <h1 class="display-6 text-center">Account Signin</h1>
+                        <div class="mb-3">
+                            <label for="Email">Email</label>
+                            <input type="text" id="email"  placeholder="Email" class="form-control rounded-0">
+                        </div>
+                        <div class="mb-1">
+                            <label for="password">Password</label>
+                            <input type="password"   placeholder="Password" class="form-control rounded-0" id="password">
+                            <p> <input type="checkbox"onclick="viewPass()">  <small>Show password</small></p>
+                        </div>
+                        <div class="mb-3 d-grid text-center">
+                            <button class="btn btn-primary rounded-0">Sign in</button>
+                            <p class="mt-3  text-white">Not yet registered? <a href="#" class="link">Sign up</a></p>
+                            <p class="fw-bold pointer text-warning" onclick="history.back()">&lt;&lt;Back</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function viewPass(){
+            var inputType = document.getElementById("password").type
+            //alert(inputType)
+            if(inputType=="password"){
+                document.getElementById("password").type ="text"
+            }else{
+                document.getElementById("password").type ="password"
+            }
+        }
+    </script>
+</body>
+</html>
